@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+a,
+img {
+	border: 0;
+}
+
+body {
+	font: 12px/180% Arial, Helvetica, sans-serif, "������";
+}
+
+
+/* selectdw */
+
+.selectdw {
+	padding: 5px 10px;
+	border: #ddd 1px solid;
+	border-radius: 4px;
+	width: 59%;
+	margin: auto;
+	font-size: 12px
+}
+
+.selectdw li {
+	list-style: none;
+	padding: 10px 0 5px 100px
+}
+
+.selectdw .selectdw-listdw {
+	border-bottom: #eee 1px dashed
+}
+
+.selectdw dl {
+	zoom: 1;
+	position: relative;
+	line-height: 24px;
+}
+
+.selectdw dl:after {
+	content: " ";
+	display: block;
+	clear: both;
+	height: 0;
+	overflow: hidden
+}
+
+.selectdw dt {
+	width: 100px;
+	margin-bottom: 5px;
+	position: absolute;
+	top: 0;
+	left: -100px;
+	text-align: right;
+	color: #666;
+	height: 24px;
+	line-height: 24px
+}
+
+.selectdw dd {
+	float: left;
+	display: inline;
+	margin: 0 0 5px 5px;
+}
+
+.selectdw a {
+	display: inline-block;
+	white-space: nowrap;
+	height: 24px;
+	padding: 0 10px;
+	text-decoration: none;
+	color: #039;
+	border-radius: 2px;
+}
+
+.selectdw a:hover {
+	color: #f60;
+	background-color: #f3edc2
+}
+
+.selectdw .selectdwed a {
+	color: #fff;
+	background-color: #f60
+}
+
+.selectdw-result dt {
+	font-weight: bold
+}
+
+.selectdw-no {
+	color: #999
+}
+
+.selectdw .selectdw-result a {
+	padding-right: 20px;
+	background: #f60 url("../img/close.gif") right 9px no-repeat
+}
+
+.selectdw .selectdw-result a:hover {
+	background-position: right -15px
+}

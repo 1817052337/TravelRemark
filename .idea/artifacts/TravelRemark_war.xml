@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="TravelRemark:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>TravelRemark</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="TravelRemark.war">
+      <element id="artifact" artifact-name="TravelRemark:war exploded" />
+    </root>
+  </artifact>
+</component>

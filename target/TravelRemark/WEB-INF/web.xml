@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>UserServlet</servlet-name>
+  	<display-name>UserServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.itheruan.web.servlet.user.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegisterUser</servlet-name>
+  	<display-name>RegisterUser</display-name>
+  	<description></description>
+  	<servlet-class>com.itheruan.web.servlet.user.RegisterUser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RemarkServlet</servlet-name>
+  	<display-name>RemarkServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.itheruan.web.servlet.travelremark.remark.RemarkServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Province</servlet-name>
+  	<display-name>Province</display-name>
+  	<description></description>
+  	<servlet-class>com.itheruan.web.servlet.travelremark.regon.Province</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>HomeServlet</servlet-name>
+  	<display-name>HomeServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.itheruan.web.servlet.HomeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UserServlet</servlet-name>
+  	<url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegisterUser</servlet-name>
+  	<url-pattern>/RegisterUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RemarkServlet</servlet-name>
+  	<url-pattern>/RemarkServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Province</servlet-name>
+  	<url-pattern>/Province</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>HomeServlet</servlet-name>
+  	<url-pattern>/HomeServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

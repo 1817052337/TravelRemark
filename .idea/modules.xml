@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TravelRemark.iml" filepath="$PROJECT_DIR$/TravelRemark.iml" />
+      <module fileurl="file://I:/00 全套资料/02 JavaWeb/day28_综合案例4/代码/travel/travel.iml" filepath="I:/00 全套资料/02 JavaWeb/day28_综合案例4/代码/travel/travel.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="travel:war">
+    <output-path>I:/00 全套资料/02 JavaWeb/day28_综合案例4/代码/travel/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>travel</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="travel-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="travel:war exploded" />
+    </root>
+  </artifact>
+</component>
